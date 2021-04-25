@@ -16,7 +16,7 @@ public class StatisticPage extends BasePage {
     }
 
     public String getPriceOfABook() {
-        executeOperationWithExplicitWait(10, ExpectedConditions.visibilityOf(priceBook), 4);
+        executeOperationWithExplicitWait(15, ExpectedConditions.visibilityOf(priceBook), 4);
 
         return priceBook.getText();
     }

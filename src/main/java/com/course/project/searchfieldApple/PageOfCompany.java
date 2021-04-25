@@ -18,7 +18,7 @@ public class PageOfCompany extends BasePage {
 
 
     public String getDividend() {
-        executeOperationWithExplicitWait(10, ExpectedConditions.visibilityOf(dividend), 4);
+        executeOperationWithExplicitWait(15, ExpectedConditions.visibilityOf(dividend), 4);
 
         return dividend.getText();
     }

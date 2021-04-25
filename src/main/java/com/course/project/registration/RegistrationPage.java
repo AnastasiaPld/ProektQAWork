@@ -67,7 +67,7 @@ public class RegistrationPage extends BasePage {
     }
 
     public void selectMonth() {
-        executeOperationWithExplicitWait(10, ExpectedConditions.visibilityOf(birthMonth), 4);
+        executeOperationWithExplicitWait(15, ExpectedConditions.visibilityOf(birthMonth), 4);
 
         Select month = new Select(birthMonth);
         month.selectByValue("3");
